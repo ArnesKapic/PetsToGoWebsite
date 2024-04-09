@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="In this site you will see the homepage of Arnes Kapic's final project, adopt an animal, 
+    about our animals, gallery of our animals, and contact us!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets | PetsToGo Site</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Welcome to PetsToGo</h1>
+        <p class="lead">Embark on your journey and find your pet that meets the eye</p>
+      </div>
+    </div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Brand Logo -->
+  <a class="navbar-brand" href="home.html">
+    <img src="images/pet_logo.webp"PetsToGo Logo width="30" height="30" class="d-inline-block align-top">
+  </a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pets.html">Our Pets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+</nav>
+
+<!-- Carousel -->
+<div id="featuredCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#featuredCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#featuredCarousel" data-slide-to="1"></li>
+    <li data-target="#featuredCarousel" data-slide-to="2"></li>
+    <li data-target="#featuredCarousel" data-slide-to="3"></li>
+    <li data-target="#featuredCarousel" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/dog_1.jpg" class="d-block w-100" alt="Dog Carousel Image" title="Happy Dog" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cat_2.jpg" class="d-block w-100" alt="Cat Carousel Image" title="Suspicious Cat" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dog_3.jpg" class="d-block w-100" alt="Dog 2 Carousel Image" title="Group Of Dog" width="800" height="700">
+    </div>   
+    <div class="carousel-item">
+      <img src="images/dog_4.jpg" class="d-block w-100" alt="Dog 3 Carousel Image" title="Dog with Dreams" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cat_5.jpg" class="d-block w-100" alt="Cat 2 Carousel Image" title="Tired Cat" width="800" height="700">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#featuredCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- HomePage/Main -->
+<main>
+  <section id="homeSection">
+    <h1 class="text-center gallery-header"><span>Homepage</span></h1>
+    <!-- Text Content -->
+    <div class="home-welcome">
+      <h2>Welcome to Pets to Go!</h2>
+      <p>Welcome to a community where each pet is treated like royalty. At Pets to Go, we're not just a shelter; we're a haven where pets find new homes and humans find new friends. Our compassionate approach extends beyond shelter walls, embracing the community through education, resources, and support to ensure every pet and pet owner enjoys a fulfilling life together. Our doors are always open for you to meet your future pet.</p>
+      <p>Explore our programs, upcoming events, and volunteer opportunities to see how you can make a meaningful difference. Whether it’s through participating in our community outreach efforts or by providing a loving home, there’s a place for you in our family.</p>
+      <p><em>Join our family and be part of a loving community that shares your passion for pets!</em></p>
+    </div>
+  </section>
+  
+  <section id="opportunitiesDonationsSection">
+    <div class="row justify-content-center">
+      <!-- Upcoming Events Header -->
+      <div class="col-md-4 text-center">
+        <div class="event-list">
+          <div class="upcoming-event-card">
+          <h4>Upcoming Events</h4>
+          <p><strong>Saturday, March 5:</strong> Our annual Adopt-a-Rama Open House from 10:00 a.m. to 4:00 p.m.</p>
+          <p><strong>Monday, March 14:</strong> Volunteer training from 6:30 p.m. to 8:00 p.m.</p>
+          <p><strong>Tuesday, March 15:</strong> Obedience 101 class from 6:30 p.m. to 7:30 p.m. You must be enrolled to attend.</p>
+        </div>
+      </div>
+      </div>
+      
+      <!-- Volunteer Opportunities Header -->
+      <div class="col-md-4 text-center">
+        <h4>Volunteer Opportunities</h4>
+        <p>Join our team and make a difference in the lives of pets. We offer various volunteering opportunities:</p>
+        <ul>
+          <li><strong>Spay/Neuter Clinics:</strong> Help us manage clinics aimed at controlling the pet population.</li>
+          <li><strong>Animal Rescue:</strong> Be on the front lines, rescuing pets from harmful situations and providing them with a chance for a better life.</li>
+          <li><strong>Rehabilitation:</strong> Assist in the recovery and socialization of animals to prepare them for adoption.</li>
+        </ul>
+        <p>Whether you have a few hours or can make a more significant time commitment, your efforts will significantly impact our community and the animals we serve.</p>
+      </div>
+      
+      <!-- Financial Donations Header -->
+      <div class="col-md-4 text-center">
+        <h4>Financial Donations</h4>
+        <p>Your contributions are vital in helping us provide the best care for pets in need. Financial donations support a range of activities, including:</p>
+        <ul>
+          <li><strong>Medical Care:</strong> From routine check-ups to emergency surgeries, your donations ensure every pet receives the medical attention they need.</li>
+          <li><strong>Shelter Maintenance:</strong> Keeping our facilities welcoming and safe for animals and visitors requires resources. Your support helps us maintain and improve our infrastructure.</li>
+          <li><strong>Community Outreach:</strong> Education and awareness campaigns are key to promoting responsible pet ownership and increasing adoption rates. Donations fund these crucial initiatives.</li>
+          <li><strong>Special Programs :</strong> Programs like senior pet adoptions, rehabilitation services for abused animals, and spay/neuter clinics are funded through your generosity.</li>
+        </ul>
+        <p>Every donation, big or small, contributes to a sustainable future for our shelter and the pets we care for. Consider becoming a monthly donor to provide continuous support. Together, we can make a lasting impact on the lives of countless animals.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+      <div class="row">
+          <!-- Footer Navigation -->
+          <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">PetsToGo is a non-profit organization dedicated to helping every pet find a loving home. We believe in the joy that a pet brings to our lives and strive towards making every pet adoption successful.</p>
+          </div>
+
+          <!-- Back to the top | Quick Links -->
+          <div class="col-xs-6 col-md-3">
+            <h6>Back to the Top</h6>
+            <a href="#" class="back-to-top">Back to Top</a>
+            <h6>Quick Links</h6>
+              <ul class="footer-links">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="pets.html">Adopt a Pet</a></li>
+              </ul>
+          </div>
+          <!-- Social Media Links -->
+          <div class="col-xs-6 col-md-3">
+              <h6>Follow Us</h6>
+              <ul class="footer-links">
+                  <li><a href="http://www.facebook.com">Facebook</a></li>
+                  <li><a href="http://www.twitter.com">Twitter</a></li>
+                  <li><a href="http://www.instagram.com">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+      <hr>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p>&copy; 2024 PetsToGo - All rights reserved. PetsToGo <img src="images/pet_logo.webp" 
+                    alt="PetsToGo Logo" width="100" hieght="100"></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="In this site you will see the adoption/pet page of Arnes Kapic's final project.  
+    Dive into our gallery to see the pets you can adopt today and learn how each animal is unique.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets | PetsToGo Site</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Welcome to PetsToGo</h1>
+        <p class="lead">Embark on your journey and find your pet that meets the eye</p>
+      </div>
+    </div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Brand Logo -->
+  <a class="navbar-brand" href="home.html">
+    <img src="images/pet_logo.webp"PetsToGo Logo width="30" height="30" class="d-inline-block align-top">
+  </a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="pets.html">Our Pets<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+</nav>
+
+<!-- Carousel -->
+<div id="featuredCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#featuredCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#featuredCarousel" data-slide-to="1"></li>
+    <li data-target="#featuredCarousel" data-slide-to="2"></li>
+    <li data-target="#featuredCarousel" data-slide-to="3"></li>
+    <li data-target="#featuredCarousel" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/dog_1.jpg" class="d-block w-100" alt="Dog Carousel Image" title="Happy Dog" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cat_2.jpg" class="d-block w-100" alt="Cat Carousel Image" title="Suspicious Cat" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dog_3.jpg" class="d-block w-100" alt="Dog 2 Carousel Image" title="Group Of Dog" width="800" height="700">
+    </div>   
+    <div class="carousel-item">
+      <img src="images/dog_4.jpg" class="d-block w-100" alt="Dog 3 Carousel Image" title="Dog with Dreams" width="800" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images/cat_5.jpg" class="d-block w-100" alt="Cat 2 Carousel Image" title="Tired Cat" width="800" height="700">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#featuredCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  
+<!-- Adoption/Main Section -->
+<main>
+  <section id="adoptionSection">
+    <h1 class="text-center gallery-header"><span>Find Your New Best Friend</span></h1>
+    <p class="text-center volunteer-opportunity">Take a moment to browse through our list of adorable, loving pets eagerly waiting for a forever home. Each of our animals has a unique story and personality, ready to become a cherished part of your family.</p>
+    <p class="text-center volunteer-opportunity">Embark on a heartwarming journey through our diverse collection of pets eagerly waiting to find a forever home. Each animal at our shelter brings a unique blend of joy, personality, and love, ready to become an integral part of your family. From the playful antics of kittens to the loyal companionship of older dogs, our shelter offers a wide range of animals for adoption, ensuring you find the perfect match for your lifestyle and preferences.</p>
+    <p class="text-center volunteer-opportunity">At PetsToGo, we believe in making lifelong matches between people and pets. Our dedicated team works tirelessly to understand the needs and temperament of each animal to provide potential adopters with complete information, making the adoption process as smooth and rewarding as possible. By choosing to adopt from us, you're not just giving an animal a second chance at life; you're also gaining a new family member who will bring endless love and gratitude into your home.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <!-- Pet Card Snowball & Sally -->
+        <div class="pet-card">
+          <div class="pet-image">
+              <img src="images/snowball_and_sally.jpg" alt="Snowball & Sally Image" title="Snowball & Sally" width="640" height="428">
+          </div>
+          <div class="pet-info">
+              <h2>Snowball & Sally</h2>
+              <h3>Spayed Female Domestic Shorthairs, 6 months old</h3>               
+              <p>Snowball and Sally are more than just sisters; they're best friends who have faced the world together since they were born. Their playful antics and curious nature make every day an adventure. Whether chasing shadows or snuggling up for a nap, these two bring warmth and joy to any home. Fully vaccinated, spayed, and litterbox trained, they're ready to join a loving family.</p>
+              <p>Perfect for anyone looking for double the fun and love. <a href="https://en.wikipedia.org/wiki/Domestic_short-haired_cat">Learn more about Domestic Shorthairs.</a></p>
+              <!-- Adopt Button Form -->
+              <form action="form_response_adopt.php" method="POST">
+                <input type="hidden" name="pet_name" value="Snowball & Sally">
+                <button type="submit" class="adopt-btn">Adopt Snowball & Sally</button>
+            </form>
+          </div>  
+        </div>  
+      </div>  
+      <div class="col-md-4">
+        <!-- Pet Card Cindy -->
+        <div class="pet-card">
+          <div class="pet-image">
+              <img src="images/cindy.jpg" alt="Cindy Image" title="Cindy" width="640" height="428">
+          </div>
+          <div class="pet-info">
+            <h2>Cindy</h2>
+            <h3>Spayed Female, Shepherd Mix, 3 years old</h3>               
+            <p>Cindy is a shining example of resilience and loyalty. With a heart as big as her bark, Cindy is eager to show how much love she can give. Known for her intelligence and quick learning, she's ready to impress with her array of tricks. Cindy looks forward to runs in the park and cozy evenings at home.</p>
+            <p>She's perfect for an active family or individual looking for a loyal companion. <a href="https://pethelpful.com/dogs/10-Most-Popular-German-Shepherd-Mix-Designer-Dogs">Learn more about Cindy.</a></p>
+            <form action="form_response_adopt.php" method="POST">
+              <input type="hidden" name="pet_name" value="Cindy">
+              <button class="adopt-btn">Adopt Cindy</button>
+            </form>
+        </div>
+      </div>
+    </div>        
+      <div class="col-md-4">
+        <!-- Pet Card Astro -->
+        <div class="pet-card">
+          <div class="pet-image">
+              <img src="images/astro.jpg" alt="Astro Image" title="Astro" width="640" height="428">
+          </div>
+          <div class="pet-info">
+              <h2>Astro</h2>
+              <h3>Neutered Male, Domestic Shorthair, 2 years old</h3>               
+              <p>Astro's journey from a shy, rescued kitty to a loving, affectionate companion is nothing short of miraculous. He's a testament to the healing power of love and patience. With a purr that can melt hearts and a love for gentle cuddles, Astro is ready to be a beloved member of a caring family.</p>
+              <p>His resilience and affection make him the perfect pet for someone who appreciates the sweet, quieter moments in life. <a href="https://en.wikipedia.org/wiki/Domestic_short-haired_cat">Learn more about Domestic Shorthairs.</a></p>
+              <form action="form_response_adopt.php" method="POST">
+                <input type="hidden" name="pet_name" value="Astro">
+                <button class="adopt-btn">Adopt Astro</button>
+              </form>
+            </div>
+          </div>
+      </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+      <div class="row">
+          <!-- Footer Navigation -->
+          <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">PetsToGo is a non-profit organization dedicated to helping every pet find a loving home. We believe in the joy that a pet brings to our lives and strive towards making every pet adoption successful.</p>
+          </div>
+
+          <!-- Back to the top | Quick Links -->
+          <div class="col-xs-6 col-md-3">
+            <h6>Back to the Top</h6>
+            <a href="#" class="back-to-top">Back to Top</a>
+            <h6>Quick Links</h6>
+              <ul class="footer-links">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="pets.html">Adopt a Pet</a></li>
+              </ul>
+          </div>
+          <!-- Social Media Links -->
+          <div class="col-xs-6 col-md-3">
+              <h6>Follow Us</h6>
+              <ul class="footer-links">
+                  <li><a href="http://www.facebook.com">Facebook</a></li>
+                  <li><a href="http://www.twitter.com">Twitter</a></li>
+                  <li><a href="http://www.instagram.com">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+      <hr>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p>&copy; 2024 PetsToGo - All rights reserved. PetsToGo <img src="images/pet_logo.webp" 
+                    alt="PetsToGo Logo" width="100" hieght="100"></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
