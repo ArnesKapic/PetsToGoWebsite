@@ -20,7 +20,7 @@
 <body>
 <div id="container">
 <h1>WDV101 Intro HTML and CSS</h1>
-<h2> Form Response Porcessor</h2>
+<h2>Form Response Porcessor</h2>
 
 <p>This process will process the 'name = value' pairs for all the elements of your contact form. It will format and respond by sending an html page containing a table with the information you entered in the form.
 </p>
