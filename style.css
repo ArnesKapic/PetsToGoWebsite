@@ -24,8 +24,8 @@ body {
     width: 100%; /* Ensures image takes full width of its container */
   }
   
-  /* Navigation Bar Customization */
-  /* Navbar Styling */
+/* Navigation Bar Customization */
+/* Navbar Styling */
 .navbar {
   background-color: #000000; /* Primary color */
   transition: background-color 0.5s ease;
